@@ -47,7 +47,7 @@ export function CarrinhoProvider({ children }) {
                 .filter((p) => p.quantidade > 0)
         );
     }
-
+//testando
     return (
         <div>
             <CarrinhoContext.Provider value={{
